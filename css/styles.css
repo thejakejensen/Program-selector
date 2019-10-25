@@ -7,3 +7,7 @@
 .csharp{
   display: none;
 }
+body{
+  background: radial-gradient(purple, pink);
+  background-attachment: fixed;
+}
