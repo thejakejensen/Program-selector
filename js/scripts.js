@@ -6,7 +6,7 @@ $(document).ready(function(){
     var seasonAnswer = parseInt($("#season").val())
     var heroAnswer = parseInt($("#hero").val())
     // this var will add togethter the values
-    var totalValue = colorAnswer + hobbyAnswer + animalAnswer + seasonAnswer + heroValue;
+    var totalValue = colorAnswer + hobbyAnswer + animalAnswer + seasonAnswer + heroAnswer;
 
     if (totalValue <= 7 ){
       $(".python").toggle();
