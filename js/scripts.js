@@ -4,20 +4,21 @@ $(document).ready(function(){
     var hobbyAnswer = parseInt($("#hobby").val())
     var animalAnswer = parseInt($("#animal").val())
     var seasonAnswer = parseInt($("#season").val())
+    var heroAnswer = parseInt($("#hero").val())
     // this var will add togethter the values
-    var totalValue = colorAnswer + hobbyAnswer + animalAnswer + seasonAnswer;
+    var totalValue = colorAnswer + hobbyAnswer + animalAnswer + seasonAnswer + heroValue;
 
-    if (totalValue <= 5 ){
+    if (totalValue <= 7 ){
       $(".python").toggle();
       $(".ruby").hide();
       $(".csharp").hide();
     }
-    else if (totalValue <=13) {
+    else if (totalValue <= 15 ){
       $(".ruby").toggle();
       $(".python").hide();
       $(".csharp").hide();
     }
-    else if (totalValue <=16){
+    else if (totalValue <= 20 ){
       $(".csharp").toggle();
       $(".ruby").hide();
       $(".python").hide();

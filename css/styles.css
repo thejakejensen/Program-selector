@@ -11,3 +11,10 @@ body{
   background: radial-gradient(purple, pink);
   background-attachment: fixed;
 }
+.jumbotron{
+  margin-top: 20px;
+  background-color: grey;
+}
+.well{
+  background-color: lightgrey;
+}
