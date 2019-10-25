@@ -14,7 +14,12 @@ body{
 .jumbotron{
   margin-top: 20px;
   background-color: grey;
+  border-color: black;
 }
 .well{
   background-color: lightgrey;
+
+}
+.jumbotron h1{
+  text-shadow: 2px 2px purple;
 }
